@@ -1,0 +1,46 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "",
+      "contact": ""
+    },
+    {
+      "id": 2,
+      "name": "",
+      "contact": ""
+    }
+  ],
+
+  "food": [
+    {
+      "id": 1,
+      "food": "Ugali Matumbo",
+      "price": 456,
+      "restaurant_id": 1
+    },
+    {
+      "id": 2,
+      "food": "Rice Beef",
+      "price": 500,
+      "restaurant_id": 3
+    }
+  ],
+
+  "orders": [
+    {
+      "id": 1,
+      "food_id": 2,
+      "table_no": 17,
+      "timestamp": "2023-07-31",
+      "restaurant_id": 2
+    },
+    {
+      "id": 2,
+      "food_id": 5,
+      "table_no": 7,
+      "timestamp": "2023-07-30",
+      "restaurant_id": 5
+    }
+  ]
+}
