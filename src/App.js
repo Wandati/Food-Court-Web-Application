@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 function App() {
   const [Restaurants, setRestaurants] = useState([]);
   useEffect(() => {
@@ -27,9 +29,13 @@ function App() {
     );
   });
   return (
-    <div className="container">
-      <div className="row">{restaurants}</div>
-    </div>
+    <>
+      <Navbar />
+      <div className="container mt-5">
+        <div className="row">{restaurants}</div>
+      </div>
+      <Footer />
+    </>
   );
 }
 
