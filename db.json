@@ -2,27 +2,27 @@
   "restaurants": [
     {
       "id": 1,
-      "name": "African",
-      "image": "",
-      "contact": "01126463744"
+      "name": "Ankole Grill (African)",
+      "image": "https://www.ankole.co.ke/images/Ciru---IMG_1627.jpg",
+      "contact": "0297654329"
     },
     {
       "id": 2,
-      "name": "Indian",
-      "image": "",
+      "name": "Urban Eatery(Indian)",
+      "image": "https://eatout.co.ke/wp-content/uploads/2021/04/6589-1920-1572523010.jpg",
       "contact": "02434366221"
     },
     {
       "id": 3,
-      "name": "Fast Food",
-      "image": "",
-      "contact": "0228823212"
+      "name": "Cafe Kareema(Fast Food)",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-s/1f/53/8a/30/gourmet-burgers-and-signature.jpg",
+      "contact": "0297654329"
     },
     {
       "id": 4,
-      "name": "Mexican",
-      "image": "",
-      "contact": "01928182981"
+      "name": "Meracdo(Mexican)",
+      "image": "https://dishy.co.ke/wp-content/uploads/2022/05/Mercado-8-960x570.jpg",
+      "contact": "0297654398"
     }
   ],
 
@@ -30,14 +30,143 @@
     {
       "id": 1,
       "food": "Ugali Matumbo",
+      "image": "https://cdn.standardmedia.co.ke/evemedia/eveimages/wednesday/thumb_easy_meals_under_sh5cb6f4dd41062.jpg",
       "price": 456,
       "restaurant_id": 1
     },
     {
       "id": 2,
-      "food": "Rice Beef",
+      "food": "Githeri",
       "price": 500,
+      "image": "https://static.wixstatic.com/media/42f06b_a9dc22e6a0104721a13c3441de05b011~mv2.jpeg/v1/fit/w_1000%2Ch_1000%2Cal_c%2Cq_80,enc_auto/file.jpg",
+      "restaurant_id": 1
+    },
+
+    {
+      "id": 3,
+      "food": "Beef Pilau",
+      "price": 500,
+      "image": "https://misskabaki.co.ke/wp-content/uploads/2021/11/Beef-Pilau-12-scaled.jpg",
+      "restaurant_id": 1
+    },
+    {
+      "id": 4,
+      "food": "Jollof Rice",
+      "price": 800,
+      "image": "https://mamaashanti.co.ke/wp-content/uploads/2022/09/cc40ed78e83fb91567443a0d076a4832.jpg",
+      "restaurant_id": 1
+    },
+    {
+      "id": 5,
+      "food": "Chapo Beans",
+      "price": 500,
+      "image": "https://www.foodscapeafrica.com/storage/2022/02/48.png",
+      "restaurant_id": 1
+    },
+    {
+      "id": 6,
+      "food": "Chicken Tikka Masala",
+      "price": 1500,
+      "image": "https://www.kitchensanctuary.com/wp-content/uploads/2019/09/Chicken-Tikka-Masala-square-FS-51.jpg",
+      "restaurant_id": 2
+    },
+    {
+      "id": 7,
+      "food": "Aloo Gobi",
+      "price": 300,
+      "image": "https://i0.wp.com/keencuisinier.com/wp-content/uploads/2021/04/Sheet-pan-aloo-gobi.jpg?fit=1600%2C2400&ssl=1",
+      "restaurant_id": 2
+    },
+    {
+      "id": 8,
+      "food": "Fish Curry",
+      "price": 900,
+      "image": "https://www.licious.in/blog/wp-content/uploads/2020/12/Manglorean-Fish-Curry.jpg",
+      "restaurant_id": 2
+    },
+    {
+      "id": 9,
+      "food": "Lamb vindaloo",
+      "price": 500,
+      "image": "https://searchingforspice.com/wp-content/uploads/2021/05/Lamb-Vindaloo-11.jpg",
+      "restaurant_id": 2
+    },
+    {
+      "id": 10,
+      "food": "Roti",
+      "price": 500,
+      "image": "https://www.recipetineats.com/wp-content/uploads/2021/02/Naan_1-1.jpg",
+      "restaurant_id": 2
+    },
+    {
+      "id": 11,
+      "food": "Burger and fries",
+      "price": 1200,
+      "image": "https://howtostartanllc.com/images/business-ideas/business-idea-images/fast-food.jpg",
       "restaurant_id": 3
+    },
+    {
+      "id": 12,
+      "food": "Pizza",
+      "price": 1300,
+      "image": "https://lh3.googleusercontent.com/p/AF1QipPVYW3CBNMQu1QMxn5yNg7u5U6ToowPF-y4NByr=w1080-h608-p-no-v0",
+      "restaurant_id": 3
+    },
+    {
+      "id": 13,
+      "food": "Shawarma",
+      "price": 400,
+      "image": "https://img.freepik.com/premium-psd/shawarma-fast-food-ai-cutout-transparent_154797-1170.jpg?w=2000",
+      "restaurant_id": 3
+    },
+    {
+      "id": 14,
+      "food": "Hotdogs",
+      "price": 350,
+      "image": "https://images.immediate.co.uk/production/volatile/sites/2/2016/07/24724.jpg?resize=960,872",
+      "restaurant_id": 3
+    },
+    {
+      "id": 15,
+      "food": "Chicken Nuggets",
+      "price": 850,
+      "image": "https://www.onehappyhousewife.com/wp-content/uploads/2022/05/air-fryer-chicken-nuggets-8-900x900.jpg",
+      "restaurant_id": 3
+    },
+    {
+      "id": 16,
+      "food": "Chilaquiles",
+      "price": 650,
+      "image": "https://www.foodandwine.com/thmb/IkRgTD5TlTZX9cxcgsPiK5ZlItw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chilaquiles-rojos-FT-RECIPE0420-1-40a700fc949d4f9d8d87e66722c5923f.jpg",
+      "restaurant_id": 4
+    },
+    {
+      "id": 17,
+      "food": "Enchiladas",
+      "price": 1900,
+      "image": "https://www.foodandwine.com/thmb/zIgYQkgBn4FvkwPzkwEm9y6PoHk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/beef-and-cheese-red-chile-enchiladas-FT-RECIPE0422-f1e256febf8549fe9a54ee1740b072c0.jpg",
+      "restaurant_id": 4
+    },
+    {
+      "id": 18,
+      "food": "Tacos",
+      "price":1000,
+      "image": "https://www.jocooks.com/wp-content/uploads/2020/08/ground-beef-tacos-1-11.jpg",
+      "restaurant_id": 4
+    },
+    {
+      "id": 19,
+      "food": "Elote",
+      "price": 200,
+      "image": "https://brokebankvegan.com/wp-content/uploads/2021/02/Elote-65Feature.jpg",
+      "restaurant_id": 4
+    },
+    {
+      "id": 20,
+      "food": "Pozole Roho",
+      "price": 950,
+      "image": "https://www.chilipeppermadness.com/wp-content/uploads/2022/10/Pozole-Rojo-SQ.jpg",
+      "restaurant_id": 4
     }
   ],
 
@@ -54,7 +183,7 @@
       "food_id": 5,
       "table_no": 7,
       "timestamp": "2023-07-30",
-      "restaurant_id": 5
+      "restaurant_id": 4
     }
   ]
 }
