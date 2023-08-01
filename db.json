@@ -2,13 +2,27 @@
   "restaurants": [
     {
       "id": 1,
-      "name": "",
-      "contact": ""
+      "name": "African",
+      "image": "",
+      "contact": "01126463744"
     },
     {
       "id": 2,
-      "name": "",
-      "contact": ""
+      "name": "Indian",
+      "image": "",
+      "contact": "02434366221"
+    },
+    {
+      "id": 3,
+      "name": "Fast Food",
+      "image": "",
+      "contact": "0228823212"
+    },
+    {
+      "id": 4,
+      "name": "Mexican",
+      "image": "",
+      "contact": "01928182981"
     }
   ],
 
