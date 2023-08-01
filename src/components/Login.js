@@ -1,7 +1,9 @@
-const Login = () => {
-    const handleSubmit=(event) =>{
 
-        console.log(event);
+const Login = () => {
+    
+    const handleSubmit=(event) =>{
+        event.preventDefault();
+        console.log(event.target);
 
 
     }
