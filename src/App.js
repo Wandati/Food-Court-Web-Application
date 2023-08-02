@@ -1,8 +1,10 @@
 import { useEffect, useState } from "react";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Foods from "./components/Foods";
 function App() {
   const [Restaurants, setRestaurants] = useState([]);
+
   // const [Foods, setFoods] = useState([]);
 
   useEffect(() => {
@@ -15,11 +17,14 @@ function App() {
   //     .then((res) => res.json())
   //     .then((data) => setFoods(data));
   // }, []);
+  // function handleChange(food){
+
+  // }
 
   const restaurants = Restaurants.map((rest) => {
     return (
       <div key={rest.id} className="col-6">
-        <div className="card ">
+        <div className="card">
           <img
             src={rest.image}
             className="card-img-top img-fluid"
@@ -36,6 +41,7 @@ function App() {
       </div>
     );
   });
+
   // const foods = Restaurants.map((rest) => {
   //   return (
   //     <div key={rest.id} className="col-6">
@@ -60,7 +66,10 @@ function App() {
     <>
       <Navbar />
       <div className="container mt-5">
-        <div className="row">{restaurants}</div>
+        <h1 className="text-center">Our Foods</h1>
+        <Foods />
+        <h1 className="text-center ">Our Restaurants</h1>
+        <div className="row mt-3">{restaurants}</div>
       </div>
       <Footer />
     </>
