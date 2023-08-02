@@ -7,6 +7,7 @@ export default function Navbar() {
       <div className="container-fluid">
         <h1 className="navbar-brand">Nextgen Food Court App</h1>
         <form className="d-flex" role="search">
+          {/* <link to='/'>cart</link> */}
           <input
             className="form-control me-2"
             type="search"
