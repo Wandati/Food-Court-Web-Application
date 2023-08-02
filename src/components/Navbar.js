@@ -1,4 +1,4 @@
-export default function Navbar() {
+export default function Navbar({ query, setQuery }) {
   return (
     <nav
       className="navbar bg-dark border-bottom border-body text-white"
@@ -10,6 +10,8 @@ export default function Navbar() {
           <input
             className="form-control me-2"
             type="search"
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
             placeholder="Search Foods here"
             aria-label="Search"
           />
