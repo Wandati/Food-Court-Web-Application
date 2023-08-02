@@ -38,7 +38,7 @@ const Login = ({ email, setEmail }) => {
 
   return (
     <div className="center-container">
-      <p>Hello: {email} </p>
+      {email && <p>Hello: {email}</p>}
       <form className="small-form" onSubmit={handleSubmit}>
         <div className="form-group row">
           <label htmlFor="staticEmail" className="col-sm-2 col-form-label">Email</label>
