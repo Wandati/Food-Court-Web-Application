@@ -30,4 +30,6 @@ body, html {
 .btn-primary {
   width: 100%;
 }
-
+.img_main{
+  float: left;
+}
