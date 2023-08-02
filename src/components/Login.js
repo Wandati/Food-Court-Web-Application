@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 const Login = ({person,setPerson}) => {
     useEffect(() =>{
-    fetch("http://localhost:3000/persons",{
+    fetch("http://localhost:3000",{
         method:'POST',
         headers:{
 
