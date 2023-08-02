@@ -210,32 +210,14 @@
       "password": "12345"
     },
     {
+      "email": "customer@gmail.com",
+      "password": "qwerty2000",
       "id": 2
     },
     {
+      "email": "person@gmail.com",
+      "password": "Maps20",
       "id": 3
-    },
-    {
-      "id": 4
-    },
-    {
-      "id": 5
-    },
-    {
-      "email": "hallo@email.com",
-      "password": "12345",
-      "id": 6
-    },
-    {
-      "id": 7
-    },
-    {
-      "id": 8
-    },
-    {
-      "email": "customer@gmail.com",
-      "password": "12345",
-      "id": 9
     }
   ]
 }

@@ -9,9 +9,10 @@ body, html {
 .center-container {
   height: 50%;
   display: flex;
-  justify-content: center;
+  justify-content:right;
   align-items: flex-end;
-  margin-top: 150px;
+  margin-top: 250px;
+  margin-right: 250px;
 }
 
 .small-form {
@@ -32,4 +33,5 @@ body, html {
 }
 .img_main{
   float: left;
+  width: 700px;
 }
