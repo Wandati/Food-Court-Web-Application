@@ -23,3 +23,16 @@ code {
   border-radius: 4px;
   color: white;
 }
+
+body {
+  background-color: bisque;
+}
+.text-center {
+  text-align: center;
+  font-style:normal;
+  color: black;
+  
+}
+.navbar-brand{
+  text-align: center;
+}

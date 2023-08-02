@@ -5,7 +5,7 @@ export default function Navbar({ query, setQuery }) {
       data-bs-theme="dark"
     >
       <div className="container-fluid">
-        <h1 className="navbar-brand">Nextgen Food Court App</h1>
+        <h1 className="navbar-brand">NEXT GEN FOOD COURT APP</h1>
         <form className="d-flex" role="search">
           {/* <link to='/'>cart</link> */}
           <input
