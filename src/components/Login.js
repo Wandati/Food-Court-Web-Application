@@ -1,9 +1,26 @@
+import { useEffect } from "react";
+const Login = ({person,setPerson}) => {
+    useEffect(() =>{
+    fetch("http://localhost:3000/persons",{
+        method:'POST',
+        headers:{
 
-const Login = () => {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json',
+        },
+        body: JSON.stringify(setPerson(person)),
+
+    })
+    
+
+
+
+    },[])
     
     const handleSubmit=(event) =>{
         event.preventDefault();
-        console.log(event.target);
+        console.log("form function .....");
+
 
 
     }
@@ -25,7 +42,7 @@ const Login = () => {
                 </div>
             </div>
 
-            <button type="button" className="btn btn-primary">Login</button>
+            <button type="submit" className="btn btn-primary">Login</button>
         </form>
 
 </div>

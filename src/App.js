@@ -1,9 +1,13 @@
 import Login from "./components/Login";
+import { useState } from "react";
 
 function App() {
+
+  const[person,setPerson]=useState({})
+
   return <div className="App">
 
-    <Login/>
+    <Login person={person} setPerson={setPerson}/>
   </div>;
 }
 
