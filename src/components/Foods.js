@@ -60,13 +60,7 @@ function FoodCard({ food, addToCart }) {
 }
 
 export default function Foods({ addToCart, filteredFoods }) {
-  // const [foods, setFoods] = useState([]);
-
-  // useEffect(() => {
-  //   fetch("http://localhost:3000/food")
-  //     .then((res) => res.json())
-  //     .then((data) => setFoods(data));
-  // }, []);
+ 
 
   const foodCards = filteredFoods.map((food) => (
     <FoodCard key={food.id} food={food} addToCart={addToCart} />
