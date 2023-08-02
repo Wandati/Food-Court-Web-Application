@@ -66,7 +66,7 @@ function App() {
           cartItems={cartItems}
           removeFromCart={removeFromCart}
           getTotalAmount={getTotalAmount}
-          clearCart={clearCart} // Pass the clearCart function to the Cart component
+          clearCart={clearCart}
         />
       </div>
       <Footer />
