@@ -8,11 +8,27 @@ function Cart({ cartItems, removeFromCart, getTotalAmount, clearCart }) {
       alert(
         `ThankYou For Your Payment . Table Number ${finalans} has been reserved to you.See You Soon!`
       );
+      const data = {
+        table_no: finalans,
+      };
+
+      clearCart();
+      PostData(data);
     } else {
       alert("Please Input Valid Table number!!");
     }
   };
-
+  function PostData(data) {
+    fetch("http://localhost:3000/orders", {
+      method: "POST",
+      headers: {
+        "Content-Type": "Application/json",
+      },
+      body: JSON.stringify(data),
+    })
+      .then((res) => res.json())
+      .then((data) => console.log(data));
+  }
   return (
     <div className="cart mt-3">
       <h2 className="text-center ">Cart</h2>

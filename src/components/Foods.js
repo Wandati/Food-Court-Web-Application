@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 
 function FoodCard({ food, addToCart }) {
@@ -13,11 +12,16 @@ function FoodCard({ food, addToCart }) {
   const handleAddToCart = () => {
     addToCart(food, quantity);
   };
-
+  ////p-2 m-1
   return (
-    <div key={food.id} className="col-3">
-      <div className="card h-100 p-2 m-1 b-2">
-        <img src={food.image} className="card-img-top" alt={food.name} />
+    <div key={food.id} className="col-3 ">
+      <div className="card h-100 ">
+        <img
+          src={food.image}
+          className="card-img-top"
+          alt={food.name}
+          height="200px"
+        />
         <div className="card-body">
           <h5 className="card-title">{food.food}</h5>
           <p className="card-text">
@@ -60,11 +64,9 @@ function FoodCard({ food, addToCart }) {
 }
 
 export default function Foods({ addToCart, filteredFoods }) {
- 
-
   const foodCards = filteredFoods.map((food) => (
     <FoodCard key={food.id} food={food} addToCart={addToCart} />
   ));
 
-  return <div className="row">{foodCards}</div>;
+  return <div className="row ">{foodCards}</div>;
 }
