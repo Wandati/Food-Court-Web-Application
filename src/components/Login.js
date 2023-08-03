@@ -1,7 +1,9 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom"; // Import useNavigate
 
 const Login = ({ email, setEmail }) => {
   const [password, setPassword] = useState("");
+  const navigate = useNavigate(); // Get the navigate function
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -23,22 +25,25 @@ const Login = ({ email, setEmail }) => {
     .then(response => response.json())
     .then(data => {
       console.log("User data sent successfully:", data);
+
+      
       // Reset the inputs after successful form submission
       setEmail("");
       setPassword("");
+          
+      // Navigate to the Home component after successful form submission
+      navigate("./App");
     })
     .catch(error => {
       console.error("Error sending user data:", error);
     });
   }
 
-  const handleChange = (event) => {
-    setEmail(event.target.value);
-  }
+  
 
   return (
+    //form to login to the webapp
     <div className="center-container">
-      {email && <p>Hello: {email}</p>}
       <form className="small-form" onSubmit={handleSubmit}>
         <div className="form-group row">
           <label htmlFor="staticEmail" className="col-sm-2 col-form-label">Email</label>
@@ -48,8 +53,7 @@ const Login = ({ email, setEmail }) => {
               className="form-control-plaintext"
               id="staticEmail"
               placeholder="email@example.com"
-              onChange={handleChange}
-              value={email}
+        
             />
           </div>
         </div>
@@ -66,7 +70,7 @@ const Login = ({ email, setEmail }) => {
             />
           </div>
         </div>
-        <button type="submit" className="btn btn-primary">Login</button>
+        <button type="submit" className="btn btn-success">Login</button>
       </form>
     </div>
   );

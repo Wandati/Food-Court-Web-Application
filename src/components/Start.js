@@ -9,6 +9,7 @@ const[email,setEmail]=useState("");
         <>
         <img  className="img_main" src="https://brokebankvegan.com/wp-content/uploads/2021/02/Elote-65Feature.jpg" alt="half_image" />
         <Login person={person} setPerson={setPerson} email={email} setEmail={setEmail}/>
+      
         </>  
     
     );
