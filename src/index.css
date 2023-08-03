@@ -32,3 +32,27 @@ code {
   font-style: normal;
   color: black;
 }
+
+.card {
+  border: 50px;
+  border-color: black;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 10px;
+  word-wrap: break-word;
+  background-color: #fafafa;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 15px;
+  flex-wrap: wrap;
+}
+
+.row > * {
+  margin-top: 0.19cm;
+}
+
+.card-img-top {
+  width: 7.5cm;
+  height: 5cm;
+}

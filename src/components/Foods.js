@@ -14,6 +14,7 @@ function FoodCard({ food, addToCart }) {
   };
   ////p-2 m-1
   return (
+<<<<<<< HEAD
     <div key={food.id} className="col-3 ">
       <div className="card h-100 ">
         <img
@@ -22,6 +23,11 @@ function FoodCard({ food, addToCart }) {
           alt={food.name}
           height="200px"
         />
+=======
+    <div key={food.id} className="col-3">
+      <div className="card h-100 p-2 m-1 b-5">
+        <img src={food.image} className="card-img-top" alt={food.name} />
+>>>>>>> 9e349de2dd3f5e69178560427e6c7fe4257a2b9b
         <div className="card-body">
           <h5 className="card-title">{food.food}</h5>
           <p className="card-text">
