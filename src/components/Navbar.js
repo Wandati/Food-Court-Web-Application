@@ -7,7 +7,6 @@ export default function Navbar({ query, setQuery }) {
       <div className="container-fluid">
         <h1 className="navbar-brand">NEXT GEN FOOD COURT APP</h1>
         <form className="d-flex" role="search">
-          {/* <link to='/'>cart</link> */}
           <input
             className="form-control me-2"
             type="search"
@@ -17,7 +16,7 @@ export default function Navbar({ query, setQuery }) {
             aria-label="Search"
           />
         </form>
-        {/* <p className="navbar-brand">Cart</p> */}
+        <div className="navbar-brand">View Cart</div>
       </div>
     </nav>
   );
