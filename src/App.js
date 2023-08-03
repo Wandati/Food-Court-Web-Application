@@ -49,7 +49,7 @@ function App() {
     <>
       <Navbar setQuery={setQuery} />
       <div className="container mt-5">
-        <h1 className="text-center">WELCOME TO NEXTGEN FOOD COURT APP </h1>
+        <h1 className="text-center">WELCOME TO NEXTGEN FOOD COURT </h1>
         <h2 className="text-center">Place Your Order(s) Here</h2>
         <Foods addToCart={addToCart} filteredFoods={filteredFoods} />
         {/* <h1 className="text-center ">Our Restaurants</h1>
