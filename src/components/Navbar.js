@@ -17,7 +17,7 @@ export default function Navbar({ query, setQuery }) {
             aria-label="Search"
           />
         </form>
-        {/* <p className="navbar-brand">Cart</p> */}
+        <div className="navbar-brand">View Cart</div>
       </div>
     </nav>
   );
