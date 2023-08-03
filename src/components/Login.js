@@ -33,7 +33,7 @@ const Login = ({email,password,setEmail,setPassword}) => {
        // Check if email and password are not empty before navigating
        if (user.email && user.password) {
         // Navigate to the Home component after successful form submission
-        navigate("/App"); 
+        navigate("/Home"); 
       } else {
         console.error("Email and password cannot be empty.");
       }
@@ -53,7 +53,7 @@ const Login = ({email,password,setEmail,setPassword}) => {
          <label htmlFor="staticEmail" className="col-sm-2 col-form-label">Email</label>
          <div className="col-sm-10">
            <input
-             type="text"
+             type="email"
              className="form-control form-control-lg" // Use 'form-control-lg' class for larger input
              id="staticEmail"
              placeholder="email@example.com"
