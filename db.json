@@ -208,6 +208,10 @@
     {
       "table_no": 77,
       "id": 4
+    },
+    {
+      "table_no": 88,
+      "id": 5
     }
   ],
   "users": [
@@ -361,6 +365,11 @@
       "email": "user3@gmail.com",
       "password": "64733",
       "id": 30
+    },
+    {
+      "email": "user3@gmail.com",
+      "password": "64733",
+      "id": 31
     }
   ]
 }
