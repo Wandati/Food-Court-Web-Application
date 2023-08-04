@@ -1,7 +1,8 @@
-import { useNavigate } from "react-router-dom"; // Import useNavigate
+import React from "react";
+import { useHistory } from "react-router-dom"; // Import useNavigate
 
 const Login = ({ email, password, setEmail, setPassword }) => {
-  const navigate = useNavigate(); // Get the navigate function
+  const history = useHistory(); // Get the navigate function
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -31,7 +32,9 @@ const Login = ({ email, password, setEmail, setPassword }) => {
         // Check if email and password are not empty before navigating
         if (user.email && user.password) {
           // Navigate to the Home component after successful form submission
-          navigate("/Home");
+          // navigate("/Home");
+          history.push("/");
+          alert("Login Successful!!");
         } else {
           console.error("Email and password cannot be empty.");
         }
