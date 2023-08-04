@@ -216,6 +216,14 @@
     {
       "table_no": 7,
       "id": 6
+    },
+    {
+      "table_no": 7,
+      "id": 7
+    },
+    {
+      "table_no": 7,
+      "id": 8
     }
   ],
   "users": [
@@ -226,189 +234,29 @@
       "password": "12345"
     },
     {
-      "email": "marvin@gmail.com",
-      "password": "1234",
+      "email": "jabez@gmail.com",
+      "password": "ywyw",
       "id": 2
     },
     {
-      "email": "marvin@gmail.com",
-      "password": "1234",
+      "email": "test123@gmail.com",
+      "password": "4767343",
       "id": 3
     },
     {
-      "email": "marvin@gmail.com",
-      "password": "1234",
+      "email": "user4@gmail.com",
+      "password": "4767343",
       "id": 4
     },
     {
-      "email": "marvin@gmail.com",
-      "password": "8889",
+      "email": "sam@gmail.com",
+      "password": "2345",
       "id": 5
     },
     {
-      "email": "marvin@gmail.com",
-      "password": "1234",
+      "email": "user4@gmail.com",
+      "password": "4767343",
       "id": 6
-    },
-    {
-      "email": "marvin@gmail.com",
-      "password": "1234",
-      "id": 7
-    },
-    {
-      "email": "marvin@gmail.com",
-      "password": "1234",
-      "id": 8
-    },
-    {
-      "email": "marvin@gmail.com",
-      "password": "1234",
-      "id": 9
-    },
-    {
-      "email": "marvin@gmail.com",
-      "password": "1234",
-      "id": 10
-    },
-    {
-      "email": "marvin@gmail.com",
-      "password": "1234",
-      "id": 11
-    },
-    {
-      "email": "marvin@gmail.com",
-      "password": "1234",
-      "id": 12
-    },
-    {
-      "email": "marvin@gmail.com",
-      "password": "1234",
-      "id": 13
-    },
-    {
-      "email": "branden@gmail.com",
-      "password": "6574",
-      "id": 14
-    },
-    {
-      "email": "branden@gmail.com",
-      "password": "6574",
-      "id": 15
-    },
-    {
-      "email": "jabez@gmail.com",
-      "password": "ywyw",
-      "id": 16
-    },
-    {
-      "email": "user3@gmail.com",
-      "password": "64733",
-      "id": 17
-    },
-    {
-      "email": "branden@gmail.com",
-      "password": "6574",
-      "id": 18
-    },
-    {
-      "email": "jabez@gmail.com",
-      "password": "ywyw",
-      "id": 19
-    },
-    {
-      "email": "jabez@gmail.com",
-      "password": "ywyw",
-      "id": 20
-    },
-    {
-      "email": "user3@gmail.com",
-      "password": "64733",
-      "id": 21
-    },
-    {
-      "email": "branden@gmail.com",
-      "password": "6574",
-      "id": 22
-    },
-    {
-      "email": "user3@gmail.com",
-      "password": "64733",
-      "id": 23
-    },
-    {
-      "email": "user3@gmail.com",
-      "password": "64733",
-      "id": 24
-    },
-    {
-      "email": "branden@gmail.com",
-      "password": "6574",
-      "id": 25
-    },
-    {
-      "email": "user3@gmail.com",
-      "password": "64733",
-      "id": 26
-    },
-    {
-      "email": "user3@gmail.com",
-      "password": "64733",
-      "id": 27
-    },
-    {
-      "email": "branden@gmail.com",
-      "password": "6574",
-      "id": 28
-    },
-    {
-      "email": "user3@gmail.com",
-      "password": "64733",
-      "id": 29
-    },
-    {
-      "email": "user3@gmail.com",
-      "password": "64733",
-      "id": 30
-    },
-    {
-      "email": "user3@gmail.com",
-      "password": "64733",
-      "id": 31
-    },
-    {
-      "email": "user3@gmail.com",
-      "password": "64733",
-      "id": 32
-    },
-    {
-      "email": "user3@gmail.com",
-      "password": "64733",
-      "id": 33
-    },
-    {
-      "email": "jabez@gmail.com",
-      "password": "5555",
-      "id": 34
-    },
-    {
-      "email": "marvin@gmail.com",
-      "password": "wwwq",
-      "id": 35
-    },
-    {
-      "email": "branden@gmail.com",
-      "password": "6574",
-      "id": 36
-    },
-    {
-      "email": "marvin@gmail.com",
-      "password": "wwwq",
-      "id": 37
-    },
-    {
-      "email": "Glego@gmail.com",
-      "password": "2323232",
-      "id": 38
     }
   ]
 }
