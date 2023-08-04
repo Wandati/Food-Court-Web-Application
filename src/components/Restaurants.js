@@ -22,7 +22,7 @@ export default function Restaurants() {
           <h5 className="card-title">{rest.name}</h5>
           <p className="card-text">Contact us on: {rest.contact} </p>
           <button className="btn btn-dark">
-            Subscribe Here to Get Our Newsletter
+            Click Here to Get Our Latest Menu
           </button>
         </div>
       </div>
