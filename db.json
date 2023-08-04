@@ -212,6 +212,10 @@
     {
       "table_no": 88,
       "id": 5
+    },
+    {
+      "table_no": 7,
+      "id": 6
     }
   ],
   "users": [
@@ -370,6 +374,21 @@
       "email": "user3@gmail.com",
       "password": "64733",
       "id": 31
+    },
+    {
+      "email": "user3@gmail.com",
+      "password": "64733",
+      "id": 32
+    },
+    {
+      "email": "user3@gmail.com",
+      "password": "64733",
+      "id": 33
+    },
+    {
+      "email": "jabez@gmail.com",
+      "password": "5555",
+      "id": 34
     }
   ]
 }
