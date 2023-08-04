@@ -21,6 +21,7 @@ function FoodCard({ food, addToCart }) {
           className="card-img-top"
           alt={food.name}
           height="200px"
+          style={{ objectFit: "cover", width: "260px" }}
         />
         <div className="card-body">
           <h5 className="card-title">{food.food}</h5>
@@ -63,10 +64,27 @@ function FoodCard({ food, addToCart }) {
   );
 }
 
-export default function Foods({ addToCart, filteredFoods }) {
+export default function Foods({ addToCart, filteredFoods, query, setQuery }) {
   const foodCards = filteredFoods.map((food) => (
     <FoodCard key={food.id} food={food} addToCart={addToCart} />
   ));
 
-  return <div className="row ">{foodCards}</div>;
+  return (
+    <>
+      <div className="col-6 mx-auto my-auto search-box mb-2 mt-2">
+        <div className="input-group form-container">
+          <input
+            type="text"
+            name="search"
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            className="form-control search-input"
+            autoFocus="autofocus"
+            placeholder="Search Foods Here"
+          />
+        </div>
+      </div>
+      <div className="row">{foodCards}</div>;
+    </>
+  );
 }
