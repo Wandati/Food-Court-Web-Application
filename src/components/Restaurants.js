@@ -10,8 +10,8 @@ export default function Restaurants() {
   }, []);
   const restaurants = Restaurants.map((rest) => {
     return (
-      <div key={rest.id} className="col-6">
-        <div className="card">
+      <div key={rest.id} className="col">
+        <div className="card ">
           <img
             src={rest.image}
             className="card-img-top img-fluid"
@@ -31,7 +31,9 @@ export default function Restaurants() {
   return (
     <>
       <h1 className="text-center ">Our Restaurants</h1>
-      <div className="row mt-3">{restaurants}</div>
+      <div className="container">
+        <div className="row mt-3">{restaurants}</div>
+      </div>
     </>
   );
 }
