@@ -1,10 +1,12 @@
+// import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { useState, useEffect } from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import Foods from "./Foods";
 import Cart from "./Cart";
+// import Login from "./Login";
 
-function Home() {
+function App() {
   // const [Restaurants, setRestaurants] = useState([]);
   const [cartItems, setCartItems] = useState([]);
   const [query, setQuery] = useState("");
@@ -43,30 +45,39 @@ function Home() {
 
   return (
     <>
-      <Navbar setQuery={setQuery} />
-      <div className="container mt-5">
-        <h1 className="text-center">WELCOME TO NEXTGEN FOOD COURT APP </h1>
-        <h2 className="text-center">Place Your Order(s) Here</h2>
-        <Foods addToCart={addToCart} filteredFoods={filteredFoods} />
-        {/* <h1 className="text-center ">Our Restaurants</h1>
+      {/* <Router> */}
+      <div>
+        <Navbar setQuery={setQuery} />
+        {/* <Switch> */}
+        {/* <Route exact path="/"> */}
+        <div className="container mt-5">
+          <h1 className="text-center">WELCOME TO NEXTGEN FOOD COURT APP </h1>
+          <h2 className="text-center">Place Your Order(s) Here</h2>
+          <Foods
+            addToCart={addToCart}
+            filteredFoods={filteredFoods}
+            setQuery={setQuery}
+          />
+          {/* <h1 className="text-center ">Our Restaurants</h1>
         <div className="row mt-3">{restaurants}</div> */}
+        </div>
+        {/* </Route> */}
+        {/* <Route exact path="/Cart"> */}
         <Cart
           cartItems={cartItems}
           removeFromCart={removeFromCart}
           getTotalAmount={getTotalAmount}
           clearCart={clearCart}
         />
+        {/* </Route> */}
+        {/* <Route exact path="/Login"> */}
+        {/* <Login /> */}
+        {/* </Route> */}
+        {/* </Switch> */}
+        <Footer />
       </div>
-      <Footer />
+      {/* </Router> */}
     </>
   );
 }
-export default Home;
-// function Home() {
-//   return (
-//     <>
-//       <h1>Hello World</h1>
-//     </>
-//   );
-// }
-// export default Home;
+export default App;
